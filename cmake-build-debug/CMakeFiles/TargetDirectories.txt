@@ -1,0 +1,5 @@
+D:/OpenGL_Skybox_Shadow/cmake-build-debug/CMakeFiles/STB_IMAGE.dir
+D:/OpenGL_Skybox_Shadow/cmake-build-debug/CMakeFiles/GLAD.dir
+D:/OpenGL_Skybox_Shadow/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/OpenGL_Skybox_Shadow/cmake-build-debug/CMakeFiles/advanced_opengl__skybox_shadow.dir
+D:/OpenGL_Skybox_Shadow/cmake-build-debug/CMakeFiles/rebuild_cache.dir

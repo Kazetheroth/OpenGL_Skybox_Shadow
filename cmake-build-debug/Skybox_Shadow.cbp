@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Skybox_Shadow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\configuration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="D:/OpenGL_Skybox_Shadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="D:/OpenGL_Skybox_Shadow/cmake-build-debug/STB_IMAGE.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="D:/OpenGL_Skybox_Shadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 GLAD"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="D:/OpenGL_Skybox_Shadow/cmake-build-debug/GLAD.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advanced_opengl__skybox_shadow">
+				<Option output="D:/OpenGL_Skybox_Shadow/bin/advanced_opengl/advanced_opengl__skybox_shadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 advanced_opengl__skybox_shadow"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="advanced_opengl__skybox_shadow/fast">
+				<Option output="D:/OpenGL_Skybox_Shadow/bin/advanced_opengl/advanced_opengl__skybox_shadow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/OpenGL_Skybox_Shadow/cmake-build-debug/configuration"/>
+					<Add directory="D:/OpenGL_Skybox_Shadow/includes"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 advanced_opengl__skybox_shadow/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/OpenGL_Skybox_Shadow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\OpenGL_Skybox_Shadow\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/Skybox_Shadow.cpp">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/cubemaps.fs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/cubemaps.vs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/debug_quad.vs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/debug_quad_depth.fs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/shadow_mapping.fs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/shadow_mapping.vs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/shadow_mapping_depth.fs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/shadow_mapping_depth.vs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/skybox.fs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/advanced_opengl/skybox_shadow/skybox.vs">
+			<Option target="advanced_opengl__skybox_shadow"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/src/stb_image.cpp">
+			<Option target="STB_IMAGE"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+		<Unit filename="D:/OpenGL_Skybox_Shadow/configuration/visualstudio.vcxproj.user.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
